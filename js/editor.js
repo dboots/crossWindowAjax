@@ -5,15 +5,6 @@ $('document').ready(function() {
 const PROCESS_URL = 'js/ajax/process.php';
 
 function _init() {
-	$.ajax({
-		method: 'POST',
-		url: PROCESS_URL,
-		data: {
-			action: 'test'
-		},
-		success: function(data, txtStatus, jqXHR) {
-		}
-	});
 }
 
 function set(attribute, value, callback) {
