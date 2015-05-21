@@ -1,0 +1,11 @@
+.selector {
+	width: 50px;
+	height: 50px;
+	border: 1px solid #DEDEDE;
+	cursor: pointer;
+	float: left;
+}
+
+.clearfix {
+	clear: both;
+}
